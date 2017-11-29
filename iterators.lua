@@ -1,5 +1,9 @@
 
 selvals = function (phrase, selected)  
+	if type(selected) == "number" then
+		selected = {selected}
+	end
+	
   local s = 0
   return function ()
     s = s + 1
