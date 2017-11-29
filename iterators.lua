@@ -1,7 +1,7 @@
 
 selvals = function (phrase, selected)  
 	if type(selected) == "number" then
-		selected = {selected}
+		selected = {selected,}
 	end
 	
   local s = 0
